@@ -103,13 +103,13 @@ sr.reveal(`
 })
 
 sr.reveal(`
-.share__img, .send__img`, {
+.share__img, .send__content`, {
   origin: 'left',
   interval: 200
 })
 
 sr.reveal(`
-.share__data, .send_content`, {
+.share__data,.send__img `, {
   origin: 'right',
   interval: 200
 })
